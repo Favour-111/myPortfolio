@@ -14,8 +14,12 @@ import Review from "../../Asset/mockup/Peach Minimalist New Stock Online Noteboo
 import Review2 from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (7).png";
 import quiz2 from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (8).png";
 import Slider from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (6).png";
+import Shopify from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (9).png";
+import TextLoader from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (10).png";
+import VS from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (11).png";
 import Footer from "../../components/Footer/Footer";
 import BackToTop from "../../components/BackToTop/BackToTop";
+import toast, { Toaster } from "react-hot-toast";
 const Gallery = () => {
   const [CheckProject, setCheckProject] = useState(false);
   const gallertItem = [
@@ -55,6 +59,18 @@ const Gallery = () => {
       image: Slider,
       Link: "https://favour-111.github.io/slider-writeup/",
     },
+    {
+      image: Shopify,
+      Link: "https://atlaspublish.myshopify.com/?pb=0",
+    },
+    {
+      image: TextLoader,
+      Link: "",
+    },
+    {
+      image: VS,
+      Link: "",
+    },
   ];
   return (
     <div>
@@ -82,14 +98,26 @@ const Gallery = () => {
                 onMouseOut={() => setCheckProject(false)}
               >
                 <img src={item.image} alt="" />
-                <a className="bottom-open" href={item.Link} target="_blank">
-                  Check project
-                </a>
+                {item.Link === "" ? (
+                  <a
+                    onClick={() => {
+                      toast("Link is currently unavailable");
+                    }}
+                    className="bottom-open"
+                  >
+                    Check project
+                  </a>
+                ) : (
+                  <a className="bottom-open" href={item.Link} target="_blank">
+                    Check project
+                  </a>
+                )}
               </div>
             );
           })}
         </div>
       </div>
+      <Toaster />
       <Footer />
     </div>
   );

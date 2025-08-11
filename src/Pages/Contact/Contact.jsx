@@ -27,13 +27,11 @@ const Contact = () => {
                   make something great together.
                 </div>
                 <div className="info-address">
-                  <div>No 30 Firstack lagos state</div>
-
-                  <div>
-                    <span>Phone : </span>+234 806 998 9705
-                  </div>
                   <div>
                     <span>Phone : </span>+234 706 996 1314
+                  </div>
+                  <div>
+                    <span>Phone : </span>+234 806 998 9705
                   </div>
                 </div>
               </div>
@@ -56,7 +54,7 @@ const Contact = () => {
                     id=""
                   ></textarea>
                 </div>
-                <button className="Message-btn">
+                <button href="tel:+2347069961314" className="Message-btn">
                   <div class="svg-wrapper-1">
                     <div class="svg-wrapper">
                       <svg
@@ -80,6 +78,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );

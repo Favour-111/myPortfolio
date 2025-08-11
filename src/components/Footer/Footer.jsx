@@ -12,7 +12,9 @@ import {
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import toast, { Toaster } from "react-hot-toast";
+import { useNavigate } from "react-router";
 const Footer = () => {
+  const navigate = useNavigate();
   const handleClick = () => {
     toast("Link is currently unavailable");
   };
@@ -75,16 +77,49 @@ const Footer = () => {
               <div className="footer-itm-head">Quick Link</div>
               <ul>
                 <li>
-                  <Link className="footer-link-itm">Home</Link>
+                  <div
+                    onClick={() => {
+                      navigate("/");
+                      window.scrollTo(0, 0);
+                    }}
+                    to="/"
+                    className="footer-link-itm"
+                  >
+                    Home
+                  </div>
                 </li>
                 <li>
-                  <Link className="footer-link-itm">About</Link>
+                  <div
+                    onClick={() => {
+                      navigate("/about-us");
+                      window.scrollTo(0, 0);
+                    }}
+                    className="footer-link-itm"
+                  >
+                    About
+                  </div>
                 </li>
                 <li>
-                  <Link className="footer-link-itm">Contact</Link>
+                  <div
+                    onClick={() => {
+                      navigate("/contact-us");
+                      window.scrollTo(0, 0);
+                    }}
+                    className="footer-link-itm"
+                  >
+                    Contact
+                  </div>
                 </li>
                 <li>
-                  <Link className="footer-link-itm">Gallery</Link>
+                  <div
+                    onClick={() => {
+                      navigate("/gallery");
+                      window.scrollTo(0, 0);
+                    }}
+                    className="footer-link-itm"
+                  >
+                    Gallery
+                  </div>
                 </li>
               </ul>
             </div>

@@ -84,22 +84,25 @@ const Client = () => {
           >
             BUILD AN AMZING SITE TODAY!
           </div>
-          <button
+          <a
+            href="tel:+2347069961314"
             className="fancy-button"
             data-aos="fade-in"
             data-aos-duration="1500"
           >
             Get In Touch
-          </button>
+          </a>
         </div>
       </div>
       <div className="client-slider-container ">
         <div className="client-text">
           <div className="client-text-head">Our client</div>
-          <div className="client-text-content">
+          <div className="client-text-content mb-3">
             Get to Know the Visionaries We’re Proud to Partner With
           </div>
-          <button className="fancy-button">Contact Us</button>
+          <a href="tel:+2347069961314" className="fancy-button">
+            Contact Us
+          </a>
         </div>
 
         <div className="client-slider ">

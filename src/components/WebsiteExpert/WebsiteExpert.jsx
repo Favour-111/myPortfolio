@@ -51,11 +51,11 @@ const WebsiteExpert = () => {
           <div className="expert-numbers-cont">
             <div className="expert-itm">
               <div className="exprt-num">48+</div>
-              <div className="exprt-name">Project done</div>
+              <div className="exprt-name">Projects done</div>
             </div>
             <div className="expert-itm">
               <div className="exprt-num">90+</div>
-              <div className="exprt-name">Happy Client</div>
+              <div className="exprt-name">Happy Clients</div>
             </div>
           </div>
         </div>

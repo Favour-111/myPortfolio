@@ -12,7 +12,9 @@ import Blog from "../../components/Blog/Blog";
 import Footer from "../../components/Footer/Footer";
 import BackToTop from "../../components/BackToTop/BackToTop";
 import PopUp from "../../components/PopUp/PopUp";
+import { useNavigate } from "react-router";
 const Home = () => {
+  const navigate = useNavigate();
   const baseText = "In ";
   const words = [
     "Web Development",
@@ -147,6 +149,7 @@ const Home = () => {
             className="who-button"
             data-aos="fade-in"
             data-aos-duration="1500"
+            onClick={() => navigate("/about-us")}
           >
             MORE ABOUT US
           </button>

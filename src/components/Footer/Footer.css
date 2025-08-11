@@ -114,6 +114,7 @@
     .footer-link-itm {
       color: #787878;
       text-decoration: none;
+      cursor: pointer;
     }
   }
 }

@@ -35,7 +35,7 @@ const About = () => {
           </div>
           <a
             className="download-cv-btn"
-            href="/cv.pdf"
+            href="/Horbah's Tech.pdf"
             download
             style={{
               background: "linear-gradient(90deg, #ffb347 0%, #ffcc33 100%)",
@@ -45,13 +45,11 @@ const About = () => {
               border: "none",
               borderRadius: 30,
               textDecoration: "none",
-              fontSize: "1.08rem",
+              fontSize: ".86rem",
               boxShadow: "0 2px 8px rgba(255, 204, 51, 0.18)",
               transition: "background 0.3s, color 0.3s, transform 0.2s",
               marginTop: 18,
               display: "inline-block",
-              letterSpacing: 1,
-              fontFamily: "Montserrat, sans-serif",
             }}
           >
             Download My CV

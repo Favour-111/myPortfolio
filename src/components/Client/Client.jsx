@@ -75,33 +75,33 @@ const Client = () => {
             data-aos="fade-in"
             data-aos-duration="1500"
           >
-            Let's work together
+            Let's work together — with me!
           </div>
           <div
             className="working-head"
             data-aos="fade-in"
             data-aos-duration="1500"
           >
-            BUILD AN AMZING SITE TODAY!
+            Ready for a stunning website?
           </div>
           <a
-            href="tel:+2347069961314"
+            href="tel:+2348069989705"
             className="fancy-button"
             data-aos="fade-in"
             data-aos-duration="1500"
           >
-            Get In Touch
+            Contact Me
           </a>
         </div>
       </div>
       <div className="client-slider-container ">
         <div className="client-text">
-          <div className="client-text-head">Our client</div>
+          <div className="client-text-head">My Clients</div>
           <div className="client-text-content mb-3">
-            Get to Know the Visionaries We’re Proud to Partner With
+            Discover the amazing people and businesses I've helped grow online.
           </div>
-          <a href="tel:+2347069961314" className="fancy-button">
-            Contact Us
+          <a href="tel:+2348069989705" className="fancy-button">
+            Contact Me
           </a>
         </div>
 

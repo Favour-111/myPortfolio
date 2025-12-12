@@ -12,24 +12,22 @@ const Contact = () => {
             <Nav />
             <NavSm />
             <div className="contact-overlay-item">
-              <div className="contact-head">COntact US</div>
+              <div className="contact-head">Contact Me</div>
               <div className="contact-content">
-                Reach out and let's bring your vision to life.
+                Reach out and let me help bring your vision to life.
               </div>
             </div>
           </div>
           <div>
             <div className="form-content">
               <div className="Info-container">
-                <div className="info-head">We’d love to hear from you</div>
+                <div className="info-head">I'd love to hear from you</div>
                 <div className="info-content">
                   Have a question, idea, or project in mind? Reach out and let's
-                  make something great together.
+                  make something amazing together. I'm here to help you every
+                  step of the way.
                 </div>
                 <div className="info-address">
-                  <div>
-                    <span>Phone : </span>+234 706 996 1314
-                  </div>
                   <div>
                     <span>Phone : </span>+234 806 998 9705
                   </div>
@@ -54,7 +52,7 @@ const Contact = () => {
                     id=""
                   ></textarea>
                 </div>
-                <button href="tel:+2347069961314" className="Message-btn">
+                <button href="tel:+2348069989705" className="Message-btn">
                   <div class="svg-wrapper-1">
                     <div class="svg-wrapper">
                       <svg
@@ -71,7 +69,7 @@ const Contact = () => {
                       </svg>
                     </div>
                   </div>
-                  <span>Send Messsage</span>
+                  <span>Send Message</span>
                 </button>
               </div>
             </div>

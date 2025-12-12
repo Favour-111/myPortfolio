@@ -16,13 +16,43 @@ import quiz2 from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook
 import Slider from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (6).png";
 import Shopify from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (9).png";
 import TextLoader from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (10).png";
+import SportsTIps from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (12).png";
+import MsAdmin from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (14).png";
+import SportTIpsAdmin from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (13).png";
+import Manager from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (15).png";
 import VS from "../../Asset/mockup/Peach Minimalist New Stock Online Notebook Mockup Instagram Post (11).png";
+import Mealsection from "../../Asset/mockup/Screenshot 2025-12-12 210543.png";
+import Rider from "../../Asset/mockup/Screenshot 2025-12-12 212303.png";
 import Footer from "../../components/Footer/Footer";
 import BackToTop from "../../components/BackToTop/BackToTop";
 import toast, { Toaster } from "react-hot-toast";
 const Gallery = () => {
   const [CheckProject, setCheckProject] = useState(false);
   const gallertItem = [
+    {
+      image: Mealsection,
+      Link: "https://mealsection-client2-0-sf8j.vercel.app/",
+    },
+    {
+      image: MsAdmin,
+      Link: "https://meal-section-super-admin.vercel.app/",
+    },
+    {
+      image: Manager,
+      Link: "http://mealsection-manager.vercel.app/",
+    },
+    {
+      image: Rider,
+      Link: "https://rider-admin.mealsection.com/",
+    },
+    {
+      image: SportsTIps,
+      Link: "https://sport-booking-site.vercel.app/",
+    },
+    {
+      image: SportTIpsAdmin,
+      Link: "https://sport-booking-site.vercel.app/",
+    },
     {
       image: Admin,
       Link: "https://villyz-admin.vercel.app/",
@@ -79,16 +109,17 @@ const Gallery = () => {
         <AboutNavSm />
         <BackToTop />
         <div className="gallery-banner-text">
-          <div className="gallery-sub-head">our portfolio</div>
-          <div className="gallery-head">CREATIVE SOLUTIONS</div>
+          <div className="gallery-sub-head">my portfolio</div>
+          <div className="gallery-head">MY CREATIVE SOLUTIONS</div>
           <div className="gallery-content">
-            From eye-catching designs to cutting-edge technology, we combine
-            creativity, strategy, and innovation to deliver results that matter.
+            From eye-catching designs to cutting-edge technology, I combine
+            creativity, strategy, and innovation to deliver results that matter
+            for my clients.
           </div>
         </div>
       </div>
       <div className="gallery-container">
-        <div className="gallery-container-head">Next-Level Website Design</div>
+        <div className="gallery-container-head">My Website Projects</div>
         <div className="gallery-content-container">
           {gallertItem.map((item, index) => {
             return (

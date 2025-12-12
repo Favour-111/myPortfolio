@@ -12,7 +12,7 @@ const Service = () => {
           data-aos="fade-in"
           data-aos-duration="1500"
         >
-          What we do
+          What i do
         </div>
         <div
           className="service-head"
@@ -26,8 +26,8 @@ const Service = () => {
           data-aos="fade-in"
           data-aos-duration="1500"
         >
-          Our team takes the time to understand your business, your audience,
-          and your goals.
+          I take the time to understand your business, your audience, and your
+          goals.
         </div>
       </div>
       <div className="service-content">
@@ -43,8 +43,7 @@ const Service = () => {
             Web Design & Development
           </div>
           <div className="service-content-cont">
-            Our team creates responsive, visually stunning websites built to
-            convert.
+            I create responsive, visually stunning websites built to convert.
           </div>
         </div>
         <div
@@ -59,7 +58,7 @@ const Service = () => {
             Mobile App Design & Development
           </div>
           <div className="service-content-cont">
-            We design and build sleek, high-performing mobile apps for iOS and
+            I design and build sleek, high performing mobile apps for iOS and
             Android.
           </div>
         </div>
@@ -71,10 +70,10 @@ const Service = () => {
           <div className="service-content-icon">
             <HiOutlineLightBulb size={50} />
           </div>
-          <div className="service-content-heading">Branding & Strategy</div>
+          <div className="service-content-heading">Bot Automation</div>
           <div className="service-content-cont">
-            A strong brand is more than just a logo it’s the voice of your
-            company.
+            I build smart bots to automate your business tasks, boost
+            efficiency, and save you time.
           </div>
         </div>
       </div>

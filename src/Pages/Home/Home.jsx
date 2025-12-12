@@ -63,13 +63,13 @@ const Home = () => {
         <NavSm />
         <PopUp />
         <div className="banner-text-container">
-          <div className="banner-text-1">Full-stack Agency</div>
+          <div className="banner-text-1">Full-stack Developer</div>
           <div className="Written-Text">
             {baseText}
             <span>{text}</span>
             <span className="blinking-cursor">|</span>
           </div>
-          <div className="company-name">Velorex</div>
+          <div className="company-name">Horbah</div>
         </div>
       </div>
       <div className="short-content-container">
@@ -81,10 +81,10 @@ const Home = () => {
           <div>
             <GoLightBulb className="short-content-icon" />
           </div>
-          <div className="short-content-head">INNOVATORS</div>
+          <div className="short-content-head">CREATIVE THINKER</div>
           <div className="short-content-content">
-            Shaping the future with bold ideas. We blend technology and
-            creativity to build lasting impact.
+            I love turning bold ideas into reality, blending technology and
+            creativity to make a difference.
           </div>
         </div>
         <div
@@ -95,10 +95,10 @@ const Home = () => {
           <div>
             <GoGraph className="short-content-icon" />
           </div>
-          <div className="short-content-head">STRATEGISTS</div>
+          <div className="short-content-head">PROBLEM SOLVER</div>
           <div className="short-content-content">
-            Turning insights into action. We design smart, data-driven solutions
-            that drive real results.
+            I use data-driven strategies and smart solutions to help clients
+            achieve their goals.
           </div>
         </div>
         <div
@@ -109,10 +109,10 @@ const Home = () => {
           <div>
             <IoConstructOutline className="short-content-icon" />
           </div>
-          <div className="short-content-head">BUILDERS</div>
+          <div className="short-content-head">DEDICATED BUILDER</div>
           <div className="short-content-content">
-            From concept to completion. We bring your vision to life with
-            precision and passion.
+            From concept to launch, I bring visions to life with precision,
+            passion, and a personal touch.
           </div>
         </div>
       </div>
@@ -121,7 +121,7 @@ const Home = () => {
         <div className="who-left">
           <img
             src="https://images.unsplash.com/photo-1595074475099-633660478a7a?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Team Working"
+            alt="Working"
             className="team-img"
           />
           <img
@@ -132,18 +132,23 @@ const Home = () => {
         </div>
         <div className="who-right">
           <p className="who-label" data-aos="fade-in" data-aos-duration="1500">
-            WHO WE ARE
+            WHO AM I
           </p>
           <div className="who-head" data-aos="fade-in" data-aos-duration="1500">
             PASSIONATE
             <br />
-            THINKERS
+            CREATOR
           </div>
           <p className="who-text" data-aos="fade-in" data-aos-duration="1500">
-            We are driven by creativity and a clear sense of purpose, bringing
-            ideas to life through thoughtful design and innovation. Our mission
-            is to create solutions that not only look great but also make a real
-            impact. Together, let's turn your vision into something remarkable.
+            Hi, I’m Omojola Obaloluwa Favour, a versatile Web Developer, Mobile
+            App Developer, and expert in Web Hosting, App Hosting, and Database
+            Management. I am passionate about crafting user-centric, responsive,
+            and visually captivating digital experiences. With expertise in
+            HTML, CSS, JavaScript,UI/UX, GitHub, Bootstrap, React, Redux,
+            Node.js, MongoDB, React Native,Bot Automation, Firebase, Next.js,
+            Vite.js, PHP,CakePHP,MySql and flutter I specialize in transforming
+            innovative ideas into functional, scalable, and accessible solutions
+            that deliver exceptional results.
           </p>
           <button
             className="who-button"
@@ -151,7 +156,7 @@ const Home = () => {
             data-aos-duration="1500"
             onClick={() => navigate("/about-us")}
           >
-            MORE ABOUT US
+            MORE ABOUT ME
           </button>
         </div>
       </div>
@@ -160,7 +165,7 @@ const Home = () => {
         data-aos="fade-in"
         data-aos-duration="1500"
       >
-        What we stand for
+        What i stand for
       </div>
       <div data-aos="fade-in" data-aos-duration="1500">
         <FeaturesSection />

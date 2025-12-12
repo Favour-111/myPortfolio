@@ -10,9 +10,10 @@ import {
   FaTwitter,
 } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
-import { BsTwitterX } from "react-icons/bs";
+import { BsTelegram, BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router";
+import { PiBrain } from "react-icons/pi";
 const Footer = () => {
   const navigate = useNavigate();
   const handleClick = () => {
@@ -28,23 +29,23 @@ const Footer = () => {
               data-aos="fade-in"
               data-aos-duration="1500"
             >
-              LETS BRING YOUR VISION TO LIFE
+              LET'S BRING YOUR VISION TO LIFE
             </div>
             <div
               className="footer-top-content"
               data-aos="fade-in"
               data-aos-duration="1500"
             >
-              Our team is passionate about creating designs that not only look
-              great but also drive results.
+              I'm passionate about creating designs that not only look great but
+              also drive results.
             </div>
             <a
-              href="tel:+2347069961314"
+              href="tel:+2348069989705"
               className="contact-btn"
               data-aos="fade-in"
               data-aos-duration="1500"
             >
-              <span>Contact us</span>
+              <span>Contact Me</span>
             </a>
           </div>
         </div>
@@ -53,9 +54,9 @@ const Footer = () => {
             <div className="footer-itm">
               <div className="Footer-Logo">
                 <div className="logo">
-                  <GiArtificialHive className="mb-1" />
+                  <PiBrain className="mb-1" />
                 </div>
-                <div>Velorex</div>
+                <div>Horbah's Tech</div>
               </div>
             </div>
 
@@ -63,13 +64,12 @@ const Footer = () => {
               <div className="footer-itm-head">Contact</div>
               <div className="address-itm">
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=fluxsites@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=omojolaobaloluwa@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  fluxsites@gmail.com
+                  omojolaobaloluwa@gmail.com
                 </a>
-                <a href="tel:+2347069961314">+234 706 996 1314</a>
                 <a href="tel:+2348069989705">+234 806 998 9705</a>
               </div>
             </div>
@@ -139,23 +139,41 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-social-container">
-            <div className="footer-social-item" onClick={handleClick}>
+            <a
+              className="footer-social-item"
+              href="https://instagram.com/horbahstech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram />
-            </div>
-            <div className="footer-social-item" onClick={handleClick}>
-              <FaFacebookF />
-            </div>
-            <div className="footer-social-item " onClick={handleClick}>
-              <BsTwitterX />
-            </div>
-            <div className="footer-social-item" onClick={handleClick}>
-              <FaTiktok />
-            </div>
-            <div className="footer-social-item">
+            </a>
+
+            <a
+              className="footer-social-item"
+              href="https://discord.gg/aKHs3VUuj"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaDiscord />
-            </div>
+            </a>
+            <a
+              className="footer-social-item"
+              href="https://wa.me/2348069989705"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsWhatsapp />
+            </a>
+            <a
+              className="footer-social-item"
+              href="https://t.me/omojolaobaloluwa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsTelegram />
+            </a>
           </div>
-          <div className="copyright">2025 © Pine Horbah's tech</div>
+          <div className="copyright">2025 © Horbah's Tech</div>
         </div>
       </div>
       <Toaster />

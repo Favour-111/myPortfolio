@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import "./Nav.css";
 import { GiArtificialHive } from "react-icons/gi";
 import { Link } from "react-router";
-import { PiCirclesThreePlusLight } from "react-icons/pi";
+import { PiBrain, PiCirclesThreePlusLight } from "react-icons/pi";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { TbMenuDeep } from "react-icons/tb";
 import { MdClose, MdLocationOn } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
+import image from "../../Asset/images/technology.png";
 import { useNavigate } from "react-router";
 const Nav = () => {
   const navigate = useNavigate();
@@ -34,14 +35,15 @@ const Nav = () => {
             className="Nav-Logo"
           >
             <div>
-              <GiArtificialHive className="mb-1" />
+              {/* <img src={image} alt="Technology" /> */}
+              <PiBrain className="mb-1" />
             </div>
             <div
               onClick={() => {
                 navigate("/");
               }}
             >
-              Velorex
+              Horbah's Tech
             </div>
           </div>
           <div className="Nav-items">
@@ -75,7 +77,7 @@ const Nav = () => {
             >
               <TbMenuDeep size={23} />
             </div>
-            <a href="tel:+2347069961314" class="button">
+            <a href="tel:+2348069989705" class="button">
               Get in touch
               <span class="button__icon-wrapper">
                 <svg
@@ -120,14 +122,6 @@ const Nav = () => {
               <div className="contact-nav-icon">
                 <FaPhoneAlt size={20} color="black" />
               </div>
-              <a href="tel:+2347069961314" className="contact-nav-Text">
-                +234 706 996 1314
-              </a>
-            </div>
-            <div className="contact-item">
-              <div className="contact-nav-icon">
-                <FaPhoneAlt size={20} color="black" />
-              </div>
               <a href="tel:+2348069989705" className="contact-nav-Text">
                 +234 806 998 9705
               </a>
@@ -137,12 +131,12 @@ const Nav = () => {
                 <IoMail size={20} color="black" />
               </div>
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=fluxsites@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=omojolaobaloluwa@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contact-nav-Text"
               >
-                fluxsites@gmail.com
+                omojolaobaloluwa@gmail.com
               </a>
             </a>
           </div>

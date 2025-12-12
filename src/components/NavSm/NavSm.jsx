@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./NavSm.css";
 import { GiArtificialHive } from "react-icons/gi";
 import { Link } from "react-router";
-import { PiCirclesThreePlusLight } from "react-icons/pi";
+import { PiBrain, PiCirclesThreePlusLight } from "react-icons/pi";
 import { GoArrowUpRight } from "react-icons/go";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { TbMenuDeep } from "react-icons/tb";
@@ -35,13 +35,13 @@ const NavSm = () => {
             }}
           >
             <div>
-              <GiArtificialHive className="mb-1" />
+              <PiBrain size={19} className="mb-.5" />
             </div>
-            <div>Velorex</div>
+            <div>Horbah's Tech</div>
           </div>
 
           <div className="Nav-Buttons-sm">
-            <a href="tel:+2347069961314">
+            <a href="tel:+8069989705">
               <div>Get in touch</div>
               <div>
                 <GoArrowUpRight size={12} />

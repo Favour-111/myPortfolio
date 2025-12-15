@@ -125,7 +125,7 @@ const Blog = () => {
         </div>
         <div className="blog-head" data-aos="fade-in" data-aos-duration="1500">
           Latest from <br />
-          our blog
+          my blog
         </div>
 
         <div className="watching" data-aos="fade-in" data-aos-duration="1500">

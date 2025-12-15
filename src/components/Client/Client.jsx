@@ -75,7 +75,7 @@ const Client = () => {
             data-aos="fade-in"
             data-aos-duration="1500"
           >
-            Let's work together — with me!
+            work together with me!
           </div>
           <div
             className="working-head"

@@ -54,7 +54,7 @@ const Testimonial = () => {
           data-aos="fade-in"
           data-aos-duration="1500"
         >
-          OUR CLIENTS TESTIMONIALS
+          CLIENTS TESTIMONIALS
         </div>
         <div
           className="testimonial-head"

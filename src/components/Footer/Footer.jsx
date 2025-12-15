@@ -29,7 +29,7 @@ const Footer = () => {
               data-aos="fade-in"
               data-aos-duration="1500"
             >
-              LET'S BRING YOUR VISION TO LIFE
+              LET ME BRING YOUR UNIQUE VISION TO LIFE
             </div>
             <div
               className="footer-top-content"
